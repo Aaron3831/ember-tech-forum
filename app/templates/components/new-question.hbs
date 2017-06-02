@@ -1,5 +1,25 @@
 {{#if addNewQuestion}}
-  <p>Display new question form - to be replaced with form code soon.</p>
+  <h1>New Question</h1>
+  <div>
+    <form>
+      <div class="form-group">
+        <label for="author">Author</label>
+        {{input value=author id="author"}}
+      </div>
+
+      <div class="form-group">
+        <label for="topic">Topic</label>
+        {{input value=topic id="topic"}}
+      </div>
+
+      <div class="form-group">
+        <label for="image">Image URL</label>
+        {{input value=image id="image"}}
+      </div>
+
+      <button {{action 'saveQuestion1'}}>Save</button>
+    </form>
+  </div>
 {{else}}
-  <button {{action 'questionFormShow'}}>New Question</button>
+  <button {{action 'rentalFormShow'}}>New Question</button>
 {{/if}}
