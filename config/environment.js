@@ -22,11 +22,6 @@ module.exports = function(environment) {
       projectId: "ember-forum-8e03c",
       storageBucket: "ember-forum-8e03c.appspot.com",
       messagingSenderId: "525377622489"
-      };
-    APP: {
-      // Here you can pass flags/options to your application instance
-      // when it is created
-    }
   };
 
   if (environment === 'development') {

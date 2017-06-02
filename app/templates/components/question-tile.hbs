@@ -1,0 +1,9 @@
+<li>
+  {{question.author}}'s {{question.topic}}
+  {{#if isImageShowing}}
+    <p><img src={{question.image}} {{action 'imageHide'}}></p>
+  {{else}}
+    <button {{action 'imageShow'}}>Show image</button>
+  {{/if}}
+  <button {{action 'delete' question}}>Delete Question</button>
+</li>

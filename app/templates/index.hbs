@@ -2,5 +2,13 @@
 
 <p>The only forum for Ember that you will ever need</p>
 
+<ul>
+  {{#each model as |question|}}
+    {{question-tile question=question destroyQuestion="destroyQuestion"}}
+  {{/each}}
+</ul>
+
+{{new-question saveQuestion2="saveQuestion3"}}
+
 {{#link-to 'about'}}About{{/link-to}}
 {{#link-to 'contact'}}Contact Information{{/link-to}}

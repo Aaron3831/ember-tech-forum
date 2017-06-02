@@ -1,0 +1,14 @@
+{ "questions": [{
+    "author": "Veruca Salt",
+    "topic": "San Francisco",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Crane_estate_(5).jpg"
+  }, {
+    "author": "Mike Teavee",
+    "topic": "Seattle",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Alfonso_13_Highrise_Tegucigalpa.jpg"
+  }, {
+    "author": "Violet Beauregarde",
+    "topic": "Portland",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Wheeldon_Apartment_Building_-_Portland_Oregon.jpg"
+  }]
+}
