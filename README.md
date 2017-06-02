@@ -1,7 +1,8 @@
 # tech-forum
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+#### By Aaron Nguyen
+
+Practice application built in Node.JS and the Ember framework. Utilizes Ember to create a project, connect the model with a firebase database. Also includes a one-to-many relationship regarding question to answers.
 
 ## Prerequisites
 
@@ -17,6 +18,14 @@ You will need the following things properly installed on your computer.
 * `git clone <repository-url>` this repository
 * `cd tech-forum`
 * `npm install`
+
+## Technologies Used
+
+HTML/CSS
+Bootstrap
+Javascript/Node.JS
+Ember
+Bower
 
 ## Running / Development
 
@@ -48,3 +57,7 @@ Specify what it takes to deploy your app.
 * Development Browser Extensions
   * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
   * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
+
+### License
+
+Copyright 2017 Aaron Nguyen

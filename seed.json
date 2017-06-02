@@ -13,5 +13,12 @@
     "topic": "Portland",
     "text": "Stuff",
     "image": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Wheeldon_Apartment_Building_-_Portland_Oregon.jpg"
+  }],
+  "answers": [{
+    "author": "Andrea",
+    "text": "Did not fall down."
+  }, {
+    "author": "Alex",
+    "text": "Nice view of the volcano!"
   }]
 }

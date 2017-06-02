@@ -11,3 +11,10 @@ Text: {{question.text}}
 {{/if}}
 
 <button {{action 'delete' question}}>Delete</button>
+
+<h2> Posts </h2>
+<ul>
+  {{#each question.answers as |answer|}}
+    {{answer-tile answer=answer destroyAnswer="destroyAnswer"}}
+  {{/each}}
+</ul>

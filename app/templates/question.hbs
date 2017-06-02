@@ -1,4 +1,7 @@
 <h2>Check out {{model.author}}'s {{model.topic}}</h2>
+
 {{update-question question=model update="update"}}
 
-{{question-detail question=model destroyQuestion="destroyQuestion"}}
+{{question-detail question=model destroyQuestion="destroyQuestion" destroyAnswer="destroyAnswer"}}
+
+{{new-answer saveAnswer="saveAnswer" question=model}}

@@ -3,9 +3,19 @@
 <p>The only forum for Ember that you will ever need</p>
 
 <ul>
-  {{#each model as |question|}}
-     {{question-tile question=question}}
+  {{#each model.questions as |question|}}
+    {{question-tile question=question}}
   {{/each}}
 </ul>
 
 {{new-question saveQuestion2="saveQuestion3"}}
+
+<h2> Recent Posts </h2>
+
+<ul>
+  {{#each model.answers as |answer|}}
+    <li>{{answer.text}} - by {{answer.author}}</li>
+  {{/each}}
+</ul>
+
+{{new-answer saveAnswer="saveAnswer"}}
