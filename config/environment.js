@@ -16,7 +16,13 @@ module.exports = function(environment) {
         Date: false
       }
     },
-
+    apiKey: "AIzaSyArPTnYwjRvMVZ7-dpGrmRnGbF_1S0aT28",
+      authDomain: "ember-forum-8e03c.firebaseapp.com",
+      databaseURL: "https://ember-forum-8e03c.firebaseio.com",
+      projectId: "ember-forum-8e03c",
+      storageBucket: "ember-forum-8e03c.appspot.com",
+      messagingSenderId: "525377622489"
+      };
     APP: {
       // Here you can pass flags/options to your application instance
       // when it is created
