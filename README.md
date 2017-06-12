@@ -32,6 +32,22 @@ Bower
 * `ember serve`
 * Visit your app at [http://localhost:4200](http://localhost:4200).
 
+## Planning
+
+1. Project Setup
+  * Node.js/npm
+  * Ember
+  * Emberfire
+  * Firebase
+
+2. Layout
+  * Two model with a one to many association
+  * Questions include: topic, text, author and image.
+  * Answers include: author and text.
+  * Navbar
+  * Routes: index, one-question, about, contact
+  * Components: question-tile, new-question, answer-tile, new-answer, update-question
+
 ### Code Generators
 
 Make use of the many generators for code, try `ember help generate` for more details
